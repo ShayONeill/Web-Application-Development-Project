@@ -13,4 +13,5 @@ NodeJS: https://nodejs.org/en/
 
                                                                                                                                                                                                                                           
 
-To launch the app, please write node server.js
+To launch the app, please write npm start then access it by writing:
+http://yoururl.com:8080 (Replace your url with your domain name).
