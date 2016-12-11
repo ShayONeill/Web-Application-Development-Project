@@ -1,0 +1,17 @@
+{
+  "Prices": [{
+    "id": 0,
+    "vendor": "Eg. NBC",
+    "productname": "Eg. Whey Protein",
+    "price": "Eg. 30,00",
+    "summary": "",
+    "image": ""
+  }, {
+    "id": 1,
+    "vendor": "Eg. NBC2",
+    "productname": "Eg. Whey Protein2",
+    "price": "Eg. 30,002",
+    "summary": "",
+    "image": ""
+  }]
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+	<meta charset="UTF-8">
+
+	<title>Protein Shop Coke</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+
+	<script src="/modules/functions.js"></script> <!-- Init our functions.js file -->
+  
+  <link rel="stylesheet" type="text/css" href="addproduct.css">
+  
+</head>
+
+<body>
+
+	<nav class="navbar navbar-light bg-faded">
+		<a class="navbar-brand" href="/">Protein Shop Coke</a>
+		<ul class="nav navbar-nav">
+			<li class="nav-item active">
+				<a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="/addproduct">Add Products</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="/editproduct">Edit Products </a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="/deleteproduct">Remove Products</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="/transaction">All Transactions</a>
+			</li>
+
+		</ul>
+	</nav>
+
+		</ul>
+	</nav>
+
+	<div id="messages" class="container">
+
+		<div class="jumbotron">
+
+			<center><h1>Protein Coke Shop</h1></center>
+
+		</div>
+
+     
+      <form id="addForm" action="/addproduct/submit" method="post">
+    </br>
+    <div class="Add-form">
+    <label for="vendor">Vendor</label>
+    <input class="form-control" type="text" value="Eg. NBC" id="vendor" name="vendor">
+  </div>
+  </br>
+    <div class="Add-form">
+    <label for="productname">Product Name</label>
+    <input class="form-control" type="text" value="Eg. Whey Protein" id="productname" name="productname">
+  </div>
+  </br>
+    <div class="Add-form">
+    <label for="price">Product Price</label>
+    <input class="form-control" type="text" value="Eg. 30,00" id="price" name="price">
+  </div>
+</br>
+   <div class="Add-form">
+    <label for="summary">Produt Details</label>
+    <input class="form-control" id="summary" rows="3" name="summary"></input>
+  </div>
+</br>
+   <div class="Add-form">
+    <label for="summary">Produt Image</label>
+    <input class="form-control" id="image" rows="3" name="image"></input>
+  </div>
+</br>
+  <div class="Add-form">
+    <label class="form-check-label">
+      <input type="checkbox" class="form-check-input">
+      Check when ready to submit!, please check the content before.
+    </label>
+  </div>
+</br>
+  <button type="submit" class="btn btn-primary" name="submit">Submit</button>
+</form>
+    
+    
+    
+    
+    
+
+	</div>
+	
+	
+  
+
+
+
+</body>
+
+</html>

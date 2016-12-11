@@ -1,0 +1,26 @@
+{
+  "name": "webdevproject",
+  "version": "1.0.0",
+  "description": "Web Dev Project by Jorge, Julian and SHay",
+  "main": "index.html",
+  "scripts": {
+    "test": "na"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShayONeill/Web-Application-Development-Project.git"
+  },
+  "keywords": [
+    "WebDev"
+  ],
+  "author": "Julian, Jorge and Shay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShayONeill/Web-Application-Development-Project/issues"
+  },
+  "homepage": "https://github.com/ShayONeill/Web-Application-Development-Project#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  }
+}
